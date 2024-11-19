@@ -1,0 +1,179 @@
+:root {
+  --cor-principal: #584741;
+  --botao: #784b2b;
+  --cor-terciaria: #a3784d;
+  --cor-quaternaria: #13131a96;
+  --cor-txt: #fff;
+  --transition: 0.5s;
+}
+html {
+  background-image:url(https://i0.wp.com/blog.connectplug.com.br/wp-content/uploads/2023/07/o-barista-diligente-esta-preparando-cafe-com-leite-fresco-para-os-clientes-para-o-coffee-break-na-cafeteria-scaled.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+html::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.295);
+  z-index: -1;
+
+}
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--botao);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+  transition: 0.5s;
+}
+.botao:hover {
+  background-color: var(--cor-txt);
+  color: var(--botao);
+  transition: 0.5s;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: right;
+  height: 50%;
+  width: 30%;
+  margin: 20px;
+  padding: 30px;
+  background-color: #13131a96; /* salvar a cor */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.menu {
+  display: grid;
+}
+.cardapio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box-produto {
+  display: grid;
+  border: 1px solid #ccc;
+  margin: 10px;
+  border-radius: 10px;
+}
+.box-produto h3 {
+  text-align: center;
+}
+.valor {
+  text-align: center;
+  color: var(--cor-txt);
+}
+.valor span {
+  text-decoration: line-through;
+  font-size: 80%;
+}
+
+.btn {
+  text-align: center;
+  background-color: var(--botao);
+  text-decoration: none;
+  border-radius: 20px;
+  color: var(--cor-txt);
+  transition: 0.5s;
+  padding: 5px;
+  margin: 5px;
+}
+.btn:hover {
+  background-color: var(--cor-txt);
+  color: var(--botao);
+  transition: 0.5s;
+}
+.container h2 {
+  font-size: 200%;
+  color: var(--cor-txt);
+  text-align: center;
+}
+.titulo span {
+  color: var(--botao);
+}
+.container h3 {
+  color: var(--botao);
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: left;
+  height: 50%;
+  width: 40%;
+  margin: 10%;
+  
+}
+.banner span {
+  color: var(--botao);
+}
+.banner h3 span {
+  color: white;
+}
+.banner h1 {
+  font-size: 80px;
+  color: var(--cor-txt);
+  text-align: center;
+  padding-bottom: 20px;
+}
+.banner h3 {
+  font-size: 40px;
+  color: var(--botao);
+  text-align: center;
+  padding-bottom: 20px;
+}
+.banner p {
+  font-size: 20px;
+  color: var(--cor-txt);
+  text-align: center;
+}
+.cabecalho,
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
+  background-color: transparent;
+  padding-bottom: 10px;
+}
+
+.contato h2 {
+  color: var(--botao);
+  text-align: center;
+}
+.contato p {
+  color: var(--cor-txt);
+  text-align: center;
+  align-items: center;
+}

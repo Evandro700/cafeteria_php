@@ -1,0 +1,107 @@
+  body {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231105/pngtree-top-view-of-roasted-coffee-beans-on-black-stone-background-texture-image_13764975.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.profile-box{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%) translateX(-50%);
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(37, 38, 39, 0.8) ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.form h2{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 40px;
+    font-family: cursive;
+}
+.form h2 span{
+    color: #784b2b;
+}
+.form label{
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+}
+.form input{
+    font-size: 25px;
+    font-family: cursive;
+    padding: 7px;
+    border: none;
+    background-color: #784b2b;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+.form .btn:hover{
+    background-color: white;
+    color: #784b2b;
+    transition: 0.5s;
+}
+.delet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(37, 38, 39, 0.8) ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.delet .button{
+    position: relative;
+    padding-right: 400px;
+    background-color: #784b2b;
+    border: none;
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color: #784b2b;
+
+}
+a{  display: inline-block;
+    
+    background-color: #784b2b;
+    border: none;
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    margin-right: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+a:hover{
+    background-color: white;
+    color:#784b2b ;
+}

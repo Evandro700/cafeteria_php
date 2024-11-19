@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+table {
+  display: grid;
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(37, 38, 39, 0.8);
+  border-radius: 10px;
+}
+tbody {
+  display: grid;
+  display: inline-grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  background-color: rgb(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+tr {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid white;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+th {
+  color: white;
+  font-size: 30px;
+}
+th span {
+  color: #784b2b;
+}
+td {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.cardapio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+a {
+  text-align: center;
+  background-color: #784b2b;
+  text-decoration: none;
+  border-radius: 20px;
+  color: white;
+  transition: 0.5s;
+  padding: 10px;
+  margin-top:10px;
+}
+a:hover {
+  background-color: white;
+  color: #784b2b;
+  transition: 0.5s;
+}
+.btn_voltar {
+    display: inline-block;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: #784b2b;
+    border: none;
+    font-size: 25px;
+    font-family: cursive;
+    border-radius: 10px;
+    padding: 15px;
+    top: 10px;
+    left: 10px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}

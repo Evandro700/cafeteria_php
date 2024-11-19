@@ -1,0 +1,77 @@
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231105/pngtree-top-view-of-roasted-coffee-beans-on-black-stone-background-texture-image_13764975.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+  background-color: rgba(37, 38, 39, 0.8);
+}
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  text-shadow: 5px 5px 5px black;
+}
+
+.input::placeholder {
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.input {
+  margin: 10px 0;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a3784d;
+  color: white;
+  font-size: 20px;
+  outline: none;
+}
+
+.btn {
+  margin: 10px 0;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: #784b2b;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.btn:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #a3784d;
+}
+
+a {
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
